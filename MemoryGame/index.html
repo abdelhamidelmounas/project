@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/font/css/all.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <div class="controle-button">
+        <span>Strat Game</span>
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+        <div class="tries">
+            Wrong tries :<span></span>
+        </div>
+        <div class="timer">
+            
+        </div>
+    </div>
+    <div class="image-container" >
+        <div class="game-block" data-technology="angular">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-angular"  style=" color: red;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="angular">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-angular" style=" color: red;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="vue">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-vuejs" style="color: greenyellow;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="vue">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-vuejs"style="color: greenyellow;" ></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="github">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-github" style="color: #000000;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="github">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-github" style="color: #000000;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="js">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-js" style="color: #ffeb66;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="js">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-js" style="color: #ffeb66;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="css">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-css3-alt" style="color: #005eff;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="css">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-css3-alt" style="color: #005eff;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="html">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-html5" style="color: #d77402;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="html">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-html5" style="color: #d77402;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="bootstrap">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-bootstrap" style="color: #8300b3;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="bootstrap">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-bootstrap" style="color: #8300b3;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="nodejs">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-node-js" style="color: #15b300;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="nodejs">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-node-js" style="color: #15b300;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="php">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-php" style="color: #210099;"></i>
+            </div>
+        </div>
+        
+        <div class="game-block" data-technology="php">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-php" style="color: #210099;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="git">
+            <div class="face front"></div>
+            <div class="face back">
+            <i class="fa-brands fa-git-alt" style="color: #ff5900;"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="git">
+            <div class="face front"></div>
+            <div class="face back">
+            <i class="fa-brands fa-git-alt" style="color: #ff5900;"></i>
+            </div>
+        </div>
+    </div>
+    <audio id="success" src="audio/success.mp3" preload="auto" ></audio>
+    <audio src="audio/wrong-answer-126515.mp3" preload="auto" id="failed"></audio>
+    <script src="index.js"></script>
+</body>
+</html>
+
