@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update CSS variable with JS</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Update CSS variable with JS</h1>
+    <div class="main">
+        <div class="variables">
+            <form>
+                <label>Color basing</label><input class="color" type="color">
+            </form>
+                <form >
+                <label >Blur</label><input class="blur" max="10" min="0"  value="10" type="range" name="" id="">
+            </form>
+            <form >
+                <label >Spacing</label><input class="spacing" max="200" min="10" value="10 "data-sizing="px" type="range" name="" id="">
+            </form>
+        </div>
+        <div class="image">
+            <img src="image/image.jpg" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
