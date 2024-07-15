@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    <title>video</title>
+</head>
+<body>
+    <div class="container">
+        <video class="player-video viewer" src="y.mp4" autoplay ></video>
+        <div class="player-control">
+            <div class="progress">
+                <div class="progress-failed"></div>
+            </div>
+            <button class="palyer-button toggle" title="toggle play"><i class="fa-solid fa-play"></i></button>
+            <input type="range" name="range" min="0" max="1" class="player-slider1" value="1" step="0.05">
+            <input type="range" name=" playBackrate" class="player-slider2" min="0" max="2" step="0.1"value="1" >
+            <i class="fa-solid fa-arrow-rotate-left one"></i>
+            <i class="fa-solid fa-rotate-right two" ></i>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

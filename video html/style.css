@@ -1,0 +1,71 @@
+body{
+    margin: 0
+    ;padding: 0;
+    background-image: linear-gradient(297deg,rgb(192, 237, 255) , rgb(163, 0, 168));
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.container{
+    width: 500px;
+    margin: 150px auto;
+    position: relative;
+
+}
+.container video{
+    max-width:100%;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.062);
+}
+.container input[type =range]{
+    -webkit-appearance:none;
+    color: orange;
+    accent-color:  #ddd;
+    height: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.container input[type =range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: orange;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.player-control{
+    position: absolute;
+    top: 83%;
+    width: 100%;
+    transition: all 1s ease;
+    
+}
+.container button{
+    -webkit-appearance: none;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    width: 40px;
+}
+.container button i{
+    color: orange;
+    margin-left: 10px;
+    height: 100%;
+    width: 100%;
+}
+.player-control>i  {
+    color: #fff;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.progress{
+    background-color: rgba(255, 166, 0, 0.3451);
+    height: 10px;
+    width: 100%;    
+    margin-bottom:5px
+}
+.progress-failed{
+    background-color: orange;
+    height: 100%;
+    width: 0;
+    transition: 0.04s cubic-bezier(0, 0, 0.96, 1.05)  ;
+}
